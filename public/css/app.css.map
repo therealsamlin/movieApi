@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAKA;EACE,aAAa;EACb,eALY;EAMZ,oBAAoB,EACrB","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n$grey: #595959;\n$navbar-default-toggle-hover-bg: #ffffff;\n\nhtml, body {\n  height: 100%;\n  color: $grey;\n  font-family: 'Lato';\n}\n"],"sourceRoot":"/source/"}
