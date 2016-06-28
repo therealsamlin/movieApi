@@ -46,35 +46,3 @@ Route::post('api/access_token', function() {
     return Response::json(Authorizer::issueAccessToken());
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-
-
-Route::auth();
-
-Route::group(['middleware' => 'auth'], function() {
-    //about route
-
-    Route::get('about', 'AboutController@index');
-
-    //item route
-
-    Route::get('item', 'ItemController@index');
-    Route::get('item/{item}', 'ItemController@show');
-    Route::get('item/create', 'ItemController@create');
-    Route::post('item', 'ItemController@store');
-    Route::put('item/{item}', 'ItemController@edit');
-    Route::delete('item/{item}', 'ItemController@delete');
-
-    // review route
-
-    Route::post('review', 'ReviewController@store');
-    Route::get('review/{review}', 'ReviewController@edit');
-    Route::put('review/{review}', 'ReviewController@update');
-});
-
-
-
-Route::get('/home', 'HomeController@index');
