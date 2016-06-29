@@ -9,7 +9,7 @@ All credentials above can be changed to using env(config_variable)
 Call to api/access_token to get access token once has been setup in oauth_clients
 
 
-h3 GET movies/:id
+### H3 GET movies/:id
 
 ```json
 {
