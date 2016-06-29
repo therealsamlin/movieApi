@@ -36,10 +36,6 @@ $api->version('v1', ['middleware' => ['api.auth', 'api.throttle'], 'limit' => 5,
     // genres
     $api->get('genres/{id}', $v1ControllerPath . 'GenresController@show');
     $api->post('genres', $v1ControllerPath . 'GenresController@store');
-
-    // images
-    $api->post('image', $v1ControllerPath . 'ImagesController@store');
-    $api->post('image', $v1ControllerPath . 'ImagesController@store');
 });
 
 Route::post('api/access_token', function() {
