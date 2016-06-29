@@ -16,6 +16,16 @@ alt="Movie API Walk Through Video" width="240" height="180" border="10" /></a>
 
 ---
 
+### POST access_token
+
+```json
+{
+  "access_token": "VEnDz6Kd3YLPnHUfAMqpl0m2QeDW2qz6zozOQZ5f",
+  "token_type": "Bearer",
+  "expires_in": 3600
+}
+```
+
 ### GET movies/:id
 
 ```json
