@@ -7,7 +7,7 @@ All credentials above can be changed to using env(config_variable)
 
 Call to api/access_token to get access token once has been setup in oauth_clients
 
-Youtube link for walk through video - https://www.youtube.com/watch?v=YWpEi4bTmE8
+Youtube link to walk through video - https://www.youtube.com/watch?v=YWpEi4bTmE8
 
 ---
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YWpEi4bTmE8
@@ -15,6 +15,8 @@ Youtube link for walk through video - https://www.youtube.com/watch?v=YWpEi4bTmE
 alt="Movie API Walk Through Video" width="240" height="180" border="10" /></a>
 
 ---
+
+Postman link for request collection - https://www.getpostman.com/collections/daef17e6a2bd259253b4
 
 ### POST access_token
 
